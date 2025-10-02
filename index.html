@@ -9,14 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <h1>JustCarInfo</h1>
+    
+    <link rel="stylesheet" href="style.css">
 
+       
 </head>
+
+
+
 
 <body>
 
+     
     
     <nav>
 
+<ul class="sidebar">
 
             <li><a href="./transmission.html">Transmission</a></li>
 
@@ -36,11 +44,50 @@
 
             <li><a href="./drivetrain.html">DriveTrain</a></li>
 
+         </ul>   
+
+
+
+
+
+
+
+
+        <ul>
+
+            <li><a href="./transmission.html">Transmission</a></li>
+
+            <li><a href="./brakes.html">Brakes</a></li>
+
+            <li><a href="./electrical_electronics.html">Electrical_Electronics Systems</a></li>
+
+            <li><a href="./engine.html">Engine</a></li>
+
+            <li><a href="./suspension.html">Suspension</a></li>
+
+            <li><a href="./tires.html">Tires</a></li>
+
+            <li><a href="./nhtsa.html">National Highway Traffic Safety Administration</a></li>
+
+            <li><a href="./Doityourself.html">Do It Yourself</a></li>
+
+            <li><a href="./drivetrain.html">DriveTrain</a></li>
+
+            <li onclick=showSidebar()><a href='menu.svg' height="26" viewBox="0 96 960 960" width="26"></a></li>
+
+         </ul>   
+
             
 
     </nav>
 
-    
+    <script>
+
+        function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+    </script>
 
     
 </body>
@@ -49,14 +96,14 @@
 
     <h3>Get In Touch</h3>
     
-         <li>
+    <li>
 
         <a href="mailto:sette91@msn.com?subject=Hello&body=This is the email body.">Send Email</a></p>
 
-          <a href="https://www.linkedin.com/in/clint-debisette-b45246370">linkedin</a>
+        <a href="https://www.linkedin.com/in/clint-debisette-b45246370">linkedin</a>
 
 
-     </li>
+    </li>
         
 </section>
 
