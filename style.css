@@ -1,91 +1,85 @@
 * {
 
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    text-decoration: none;
     
+           
+}
+
+li {
+    
+    list-style-type: none;
+    
+
 }
 
 body {
 
     min-height: 100vh;
-    background-image: url(sky.jpg);
+    background-image: url(carbackground.jpg);
     background-size: cover;
     background-repeat: no repeat;
     background-position: center;
     font-family:'Times New Roman', Times, serif;
-}
-
-nav {
-
-    background-color: white;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
-
-}
-
-nav ul {
-
-    width: 100%;
-    list-style: none;
-    justify-content: flex-end;
-    align-items: center;
     
 }
 
-nav li {
 
-    height: 50px;
 
-}
+ 
 
-nav a {
+.carousel{
 
-    height: 100%;
-    padding: 0%;
-    text-decoration: none;
+    margin: 100px auto;
+    width: 90%;
+    border: 5px gray;
     display: flex;
-    align-items: center;
-    color: black;
+    overflow-x: auto; 
+    gap: 1em;
     
-}
-
-nav a:hover {
-
-    background-color: #f0f0f0;
 
 }
 
-nav li:first-child {
+.carousel::-webkit-scrollbar {
 
-    margin-right: auto;
+    display: none;
 
 }
 
-.sidebar {
+.group {
 
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 250px;
-    z-index: 999;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-content: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 50s infinite linear;
+    padding-right: 1em;
+
 
 }
 
-.sidebar li {
+.card { 
 
-    width: 100%;
+    flex: 0 0 5em;
+    height: 5em;
+    padding: 1em;
+    background: none;
+    font-size: 3rem;
+    border-radius: .2em;
+    text-align: center;
+    align-content: center;
+    
+
 
 }
 
-.sidebar a {
+@keyframes spin {
 
-    width: 100%;
+    from {translate: 0;}
+    to {translate: -100%}
+
 
 }
+ 
