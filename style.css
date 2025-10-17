@@ -2,7 +2,7 @@
 
     margin: 0%;
     padding: 0%;
-    color: white;
+    color: greenyellow;
     text-decoration: none;
 
                   
@@ -19,11 +19,15 @@ body {
 
     
     min-height: 100vh;
+    text-align: center;
+    align-content: center;
     background-image: url(carbackground.jpg);
     background-size: cover;
     background-repeat: no repeat;
     background-position: center center;
     font-family:'Times New Roman', Times, serif;
+    
+
     
 }
 
@@ -100,6 +104,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(brakespic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
 
@@ -110,11 +119,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(electrical_electronicspic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
-
-
-
 }
 
 .engine {
@@ -122,6 +133,11 @@ body {
 display: flex;
 justify-content: center;
 align-items: center;
+background-image: url(enginepic.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+min-height: 100vh;
 height: 750px;
 font-size: 100px;
 
@@ -132,6 +148,11 @@ font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(suspic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
 
@@ -142,8 +163,14 @@ font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(tirepic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
+
 
 }
 
@@ -152,6 +179,11 @@ font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(safetypic.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: ;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
 
@@ -163,6 +195,11 @@ font-size: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(doityourselfpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 700px;    
     font-size: 75px;
 }
@@ -172,6 +209,11 @@ font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(drivetrainpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 750px;
     font-size: 100px;
 
@@ -183,6 +225,11 @@ font-size: 100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(transmissionpic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
     height: 650px;
     font-size: 50px;
 
